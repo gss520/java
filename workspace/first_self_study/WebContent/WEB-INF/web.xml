@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5"
+xmlns="http://Java.sun.com/xml/ns/javaee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>servlet.Register</servlet-class>
+	</servlet>
+
+ 
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/servlet/register</url-pattern>
+	</servlet-mapping>
+	
+ 	<servlet>
+		<servlet-name>TestServlet</servlet-name>
+   		<servlet-class>servlet.TestSession</servlet-class>
+   		<init-param>
+   			<param-name>editor</param-name>
+   			<param-value>莎莎</param-value>
+   		</init-param>
+  	</servlet>
+  		<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<url-pattern>/servlet/testSession</url-pattern>
+	</servlet-mapping>
+	<context-param>
+		<param-name>webmaster</param-name>
+   		<param-value>大王</param-value>
+	</context-param>
+	
+	
+	<!-- login页面请求的servlet -->
+	<servlet>
+		<servlet-name>Forward</servlet-name>
+		<servlet-class>servlet.Forward</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Forward</servlet-name>
+		<url-pattern>/servlet/forward</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
+

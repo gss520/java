@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>增加小组</title>
+ 	<script language="javascript">
+		function checkForm(){
+			if(teamForm.name.value==""){
+				alert("请填写组名");
+				return false;
+			}
+			if(teamForm.slogan.value==""){
+				alert("请填写口号");
+				return false;
+			}
+			if(teamForm.leader.value==""){
+				alert("请填写组长");
+				return false;
+			}
+			return true;
+		}
+		
+	</script> 
+</head>
+<body>
+	<!--模式一  引用的类 database.DateSourse、business.TeamBusiness、addTeam.jsp
+	 <h1 align="center">增加小组</h1>
+	<form action="addTeam.jsp" method="post">
+		<p>组名：<input type="text" name="name">
+		<p>口号：<input type="text" name="slogan">
+		<p>组长：<input type="text" name="leader">
+		<p><input type="submit" value="确定">
+			<input type="reset" value="重填">
+	</form> -->
+	
+	
+	<!-- 模式二 -->
+	<h1 align="center">增加小组</h1>
+	<form name="teamForm" action="servlet/addTeam" method="post" onSubmit="return checkForm();">
+		<p>组名：<input type="text" name="name">
+		<p>口号：<input type="text" name="slogan">
+		<p>组长：<input type="text" name="leader">
+		<p><input type="submit" value="确定">
+			<input type="reset" value="重填">
+	</form>
+	<a href="addTeam.html">返回首页</a>
+</body>
+</html>
