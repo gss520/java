@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="E:\java\workspace\testoop"/>
 		<item value="C:\Users\Administrator\Desktop\toolbar"/>
 		<item value="C:\Users\Administrator\Desktop\DateBase"/>
 		<item value="F:\homework"/>

@@ -1,8 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=first_study/src&lt;guo.cn{Controllable.java[Controllable" modifiers="513" timestamp="1511452534755"/>
-<typeInfo handle="=first_self_study/D:\/apache-tomcat-8.5.12\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1488966138000"/>
-<typeInfo handle="=fifth_self_study/D:\/java-jre\/lib\/rt.jar&lt;com.sun.org.apache.xalan.internal.xsltc.dom(Filter.class[Filter" modifiers="1537" timestamp="1495374353345"/>
-<typeInfo handle="=fifth_self_study/D:\/apache-tomcat-8.5.12\/lib\/servlet-api.jar&lt;javax.servlet(ServletContextListener.class[ServletContextListener" modifiers="1537" timestamp="1488966138000"/>
-<typeInfo handle="=fifth_self_study/D:\/apache-tomcat-8.5.12\/lib\/catalina.jar&lt;org.apache.catalina.servlet4preview(ServletContext.class[ServletContext" modifiers="1537" timestamp="1488966138000"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

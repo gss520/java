@@ -34,4 +34,6 @@
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
 <fullyQualifiedTypeName name="business.TeamBusiness"/>
+<fullyQualifiedTypeName name="cn.guo.oop.Test01"/>
+<fullyQualifiedTypeName name="cn.guo.oop.encapsulation.Test01"/>
 </qualifiedTypeNameHistroy>

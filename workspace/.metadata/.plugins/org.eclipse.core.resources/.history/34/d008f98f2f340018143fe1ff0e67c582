@@ -1,0 +1,15 @@
+package cn.guo.oop.encapsulation;
+
+public class Test01 {
+	private String str;
+	public void print(){
+		String s = str;
+		System.out.println("Test01.print()");
+	}
+	
+	
+}
+	public void pp(){
+		super.print();
+	}
+}
