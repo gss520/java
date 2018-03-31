@@ -1,0 +1,23 @@
+package cn.guo.oop.ploymorphism;
+
+public class Animal {
+	public void voice(){
+		System.out.println("普通动物的叫声");
+	}
+}
+
+class Cat extends Animal{
+//	public void voice(){
+//		System.out.println("miaomiao");
+	}
+}
+class Dog extends Animal{
+	public void voice(){
+		System.out.println("wangwang");
+	}
+}
+class Pig extends Animal{
+	public void voice(){
+		System.out.println("hengheng");
+	}
+}

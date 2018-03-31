@@ -1,0 +1,19 @@
+package cn.guo.oop.ploymorphism;
+
+public class Test {
+
+	public static void testAnimalVoice(Cat c){
+		c.voice();
+	}
+	public static void testAnimalVoice(Dog c){
+		c.voice();
+	}
+	public static void testAnimalVoice(Pig c){
+		c.voice();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

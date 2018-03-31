@@ -1,0 +1,12 @@
+package cn.guo.oop.polymorphism.myServlet;
+
+public class HttpServlet {
+	public void service(){
+		System.out.println("HttpServletservice()");
+	}
+	public void doGet(){
+		System.out.println("HttpServletdoGet()");
+	}
+
+	
+}

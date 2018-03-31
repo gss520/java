@@ -1,0 +1,5 @@
+package cn.guo.oop.polymorphism.myServlet;
+
+public class HttpServlet {
+
+}
