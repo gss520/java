@@ -1,0 +1,24 @@
+package cn.guo.oop.innerclasses;
+
+import cn.guo.oop.innerclasses.Face.Nose;
+
+public class Outer {
+	public static void main(String[] args) {
+		
+		Face f = new Face();
+		Face.Nose n = f.new Nose();
+		n.breath();
+	}
+}
+
+class Face{
+	int type;
+	
+	class Nose{
+		String type;
+		
+		void breath(){
+			System.out.println("ºôÎü");
+		}
+	}
+}

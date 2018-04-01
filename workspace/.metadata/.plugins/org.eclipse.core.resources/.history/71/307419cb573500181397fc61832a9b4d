@@ -1,0 +1,5 @@
+package cn.guo.oop.testinterface;
+
+public class Flyable {
+
+}

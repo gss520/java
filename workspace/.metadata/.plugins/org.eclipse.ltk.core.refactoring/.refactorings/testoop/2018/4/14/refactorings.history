@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;cn.guo.oop.ploymorphism&apos; to &apos;cn.guo.oop.polymorphism&apos;&#x0D;&#x0A;- Original project: &apos;testoop&apos;&#x0D;&#x0A;- Original element: &apos;testoop/src/cn.guo.oop.ploymorphism&apos;&#x0D;&#x0A;- Renamed element: &apos;testoop/src/cn.guo.oop.polymorphism&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;cn.guo.oop.ploymorphism&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;cn.guo.oop.ploymorphism" name="cn.guo.oop.polymorphism" qualified="false" references="true" stamp="1522553942552" textual="false" version="1.0"/>
+</session>
