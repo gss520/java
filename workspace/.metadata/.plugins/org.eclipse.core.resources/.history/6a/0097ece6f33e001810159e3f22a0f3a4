@@ -1,0 +1,8 @@
+package cn.guo.myCollection;
+/**
+ * Ä£Äâ
+ */
+public class MyArrayList {
+	StringBuilder s;
+	
+}

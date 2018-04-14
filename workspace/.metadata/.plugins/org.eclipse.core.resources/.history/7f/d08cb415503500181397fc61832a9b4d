@@ -1,9 +1,0 @@
-package cn.guo.oop.abstractClass;
-
-public class Animal {
-	public abstract void run();
-}
-
-class Cat extends Animal{
-	
-}

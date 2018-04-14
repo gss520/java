@@ -1,0 +1,20 @@
+package cn.guo.stringbuilder;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuilder sb = new StringBuilder("abcdefghijklmnopqrstuvwxyz");
+		sb.delete(3, 5).delete(3, 5);
+		System.out.println(sb);
+
+		sb.reverse();
+		System.out.println(sb);
+		
+		
+		System.out.println("*************");
+		StringBuffer sb2 = new StringBuffer();
+		
+	}
+
+}

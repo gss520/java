@@ -1,0 +1,47 @@
+package cn.guo.oop.String;
+
+public class TestString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = new String("abcd");
+		String str2 = new String("abcd");
+		
+		System.out.println(str2.equals(str));//比较内容是否相等
+		System.out.println(str.charAt(2));
+		System.out.println(str2==str);
+		
+		String str3 = "def";
+		String str4 = "def";
+		System.out.println(str3.equals(str4));
+		System.out.println(str3==str4);
+		
+		System.out.println(str3.indexOf('y'));
+		String s=str3.substring(1);
+		System.out.println(s);
+		
+		String str5 = str3.replace('e', '*');
+		System.out.println(str5);
+		
+		String str6 = "abcde,rrtt,cccee";
+		String[] strArray = str6.split(",");
+		for(int i=0;i<strArray.length;i++){
+			System.out.println(strArray[i]);
+		}
+		
+		String str7 = " aa  bb  ";
+		String str77 = str7.trim();
+		System.out.println(str77.length());
+		
+		System.out.println("abc".equalsIgnoreCase("abC"));
+		
+		System.out.println("Abcbd".indexOf('b'));
+		System.out.println("abcbd".lastIndexOf("abC"));
+		System.out.println("abcbd".startsWith("Ab"));
+		System.out.println("Abcbd".startsWith("Ab"));
+	
+		
+	}
+
+
+}

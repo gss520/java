@@ -1,0 +1,63 @@
+package cn.guo.myCollection;
+/**
+ * 模拟
+ */
+public class MyArrayList {
+    /**
+     * The value is used for Object storage.
+     */
+    Object[] value;
+
+    /**
+     * The size is the number of Objects used.
+     */
+    int size;
+
+    public MyArrayList(){
+//    	value = new Object[16];
+    	this(16);
+    }
+    public MyArrayList(int size){
+    	value = new Object[size];
+    }
+    
+    public void add(Object obj){
+    	value[size] = obj;
+    	size++;
+    	if(size>=value.length){
+    		//装不下了。扩容吧
+    		int newCapacity = value.length*2;
+    		Object[] newList = new Object[newCapacity];
+//    		System.arraycopy(src, srcPos, dest, destPos, length);
+    		for(int i=0;i<value.length;i++){
+    			newList[i] = value[i];
+    			
+    		}
+    		value = newList;
+    	}
+    }
+
+    public Object get(int index){
+    	if(index<0||index>size-1){
+    		try {
+				throw new Exception();//手动抛出异常
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+    	}
+    	return value[index];
+    }
+    
+    public static void main(String[] args) {
+		MyArrayList list = new MyArrayList(2);
+		list.add("aaa");
+		list.add(new Human("郭帅"));
+		list.add("5555");
+		
+		Human h = (Human)list.get(1);
+		System.out.println(h.name);
+		
+	}
+}
+

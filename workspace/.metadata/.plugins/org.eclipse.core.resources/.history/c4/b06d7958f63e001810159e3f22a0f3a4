@@ -1,0 +1,32 @@
+package cn.guo.myCollection;
+/**
+ * Ä£Äâ
+ */
+public class MyArrayList {
+    /**
+     * The value is used for Object storage.
+     */
+    Object[] value;
+
+    /**
+     * The size is the number of Objects used.
+     */
+    int size;
+
+    public MyArrayList(){
+    	value = new Object[16];
+    }
+    public MyArrayList(int size){
+    	value = new Object[size];
+    }
+    
+    public void add(Object obj){
+    	value[size] = obj;
+    	size++;
+    }
+
+    public Object get(int index){
+    	return value[index];
+    }
+}
+

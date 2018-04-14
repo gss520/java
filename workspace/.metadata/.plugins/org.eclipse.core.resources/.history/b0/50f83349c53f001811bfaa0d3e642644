@@ -1,0 +1,17 @@
+package cn.guo.test;
+/**
+ * 
+ * 测试自动装箱和拆箱
+ */
+ 
+public class Test02 {
+	public static void main(String[] args) {
+//		Integer a = new Integer(1000);
+		Integer a = 1000;//自动装箱，编译器改进代码Integer a = new Integer(100)
+		
+		Integer b = null;
+		int c = new Integer(b); //编译器改进：new Integer.IntValue();
+		
+		System.out.println(c);
+	}
+}

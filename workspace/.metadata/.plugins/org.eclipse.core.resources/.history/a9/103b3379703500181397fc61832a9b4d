@@ -1,9 +1,0 @@
-package cn.guo.oop.callback;
-
-import java.awt.Graphics;
-
-public class MyFrame {
-	public void paint(Graphics f){
-		System.out.println("把自己窗口画出来");
-	}
-}

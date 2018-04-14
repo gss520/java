@@ -1,0 +1,12 @@
+package cn.guo.myCollection;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] a = {"abcd","efgh"};
+		String[] b = a;
+		System.out.println(b);
+	}
+
+}

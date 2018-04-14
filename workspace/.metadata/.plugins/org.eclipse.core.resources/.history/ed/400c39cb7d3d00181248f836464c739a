@@ -1,0 +1,16 @@
+package cn.guo.stringbuilder;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuilder sb = new StringBuilder();
+		StringBuilder sb1 = new StringBuilder(32);
+		StringBuilder sb2 = new StringBuilder("abcd");
+		sb2.append(efg);
+		sb2.append(true);
+		
+		System.out.println(sb2);
+	}
+
+}

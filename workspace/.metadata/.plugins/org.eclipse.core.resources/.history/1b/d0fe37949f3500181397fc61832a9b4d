@@ -1,9 +1,0 @@
-package cn.guo.array;
-
-public class Car {
-	String name;
-	
-	public Car(string name){
-		this.name=name;
-	}
-}

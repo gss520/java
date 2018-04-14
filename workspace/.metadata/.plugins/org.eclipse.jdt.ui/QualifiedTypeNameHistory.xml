@@ -13,9 +13,6 @@
 <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
 <fullyQualifiedTypeName name="java.lang.ClassFormatError"/>
 <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 <fullyQualifiedTypeName name="servlet.Register"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -36,4 +33,12 @@
 <fullyQualifiedTypeName name="business.TeamBusiness"/>
 <fullyQualifiedTypeName name="cn.guo.oop.Test01"/>
 <fullyQualifiedTypeName name="cn.guo.oop.encapsulation.Test01"/>
+<fullyQualifiedTypeName name="java.awt.Graphics"/>
+<fullyQualifiedTypeName name="cn.guo.oop.innerclasses.Face.Nose"/>
+<fullyQualifiedTypeName name="cn.guo.oop.innerclasses.Face.Ear"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

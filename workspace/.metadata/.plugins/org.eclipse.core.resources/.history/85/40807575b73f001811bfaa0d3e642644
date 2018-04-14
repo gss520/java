@@ -1,0 +1,35 @@
+package cn.guo.array2;
+
+import java.util.Arrays;
+
+public class Matrix2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a = {1,2,3,322,32,56,78};
+		int[] b = {1,2,3,322,32,56,78};
+		Arrays.sort(a);
+		Matrix2.sort1(b);
+		
+	/*	for(int i=0;i<a.length;i++){
+			System.out.print(a[i]+" ");
+			
+		}*/
+		System.out.println(Arrays.toString(a));
+		
+		System.out.println("该元素的索引："+Arrays.binarySearch(a, 122));
+	}
+	public static void sort1(int[] values){
+		int temp;
+		for(int i = 0;i<values.length-1;i++ ){
+			for(int j = 0;j<values.length-1-i;j++){
+				if(values[j]<values[j+1]){
+					temp = values[j];
+					values[j] = values[j+1];
+					values[j+1] = temp;
+				}
+			}
+		}
+		System.out.println(Arrays.toString(values));
+	}
+}

@@ -1,0 +1,10 @@
+package cn.guo.array2;
+
+public class Matrix2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
